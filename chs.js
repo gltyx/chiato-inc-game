@@ -406,8 +406,8 @@ var cnRegReplace = new Map([
     [/^([\d\.]+) hours ([\d\.]+) minutes ([\d\.]+) seconds$/, '$1 小时 $2 分钟 $3 秒'],
     [/^You are gaining (.+) elves per second$/, '你每秒获得 $1 精灵'],
     [/^You have (.+) points$/, '你有 $1 点数'],
-    
-    [/^Each Aircraft Plant increases army strength by (.+) . You gain (.+)  army strength per (.+)$/, '每个飞机厂增加 $1 点军队实力。每 $3 $获得 $2 点军队实力'],
+    [/^You do not have enough army to take over this territory, you need atleast (.+) army strength$/, '你没有足够的军队来占领这片领土，你至少需要 $1 军队实力'],
+    [/^Each Aircraft Plant increases army strength by (.+). You gain (.+) army strength per (.+)$/, '每个飞机厂增加 $1 点军队实力。每 $3 $获得 $2 点军队实力'],
     [/^Each Barrack increases army strength by (.+). You gain (.+) army strength per (.+)$/, '每个兵营增加 $1 点军队实力。每 $3 获得 $2 点军队实力'],
     [/^Each Boot Camp increases army strength by (.+). You gain (.+) army strength per (.+)$/, '每个新兵训练营都会增加 $1 点军队实力。每 $3 获得 $2 点军队实力'],
     [/^Each Command School increases army strength by (.+). You gain (.+) army strength per (.+)$/, '每个指挥学校增加 $1 军队实力。你获得 $2 军队实力每 $3'],
@@ -421,7 +421,6 @@ var cnRegReplace = new Map([
     [/^Each Submarine Station increases army strength by (.+). You gain (.+) army strength per (.+)$/, '每个潜艇站增加 $1 军队实力。每 $3 获得 $2 点军队实力'],
     [/^Each Tank Plant increases army strength by (.+). You gain (.+) army strength per (.+)$/, '每个坦克工厂增加 $1 点军队实力。每 $3 $获得 $2 点军队实力'],
     [/^Each Workshop increases army strength by (.+). You gain (.+) army strength per (.+)$/, '每个车间增加 $1 军队实力。你获得 $2 军队实力 每 $3'],
-
     [/^Upgrading now will increase army strength by (.+) per (.+)$/, '现在升级将增加 $1 的军队实力，花费 $2'],
     [/^Your chance of winning with (.+) army vs (.+) army is (.+)$/, '您以 $1 军队 VS $2 敌方军队，获胜的几率为 $3'],
     [/^You do not have enough army income to defend this territory, construct more buildings, you need atleast (.+) army per cycle.$/, '你没有足够的军队收入来保卫这片领土，建造更多的建筑，你每个周期至少需要 $1 军队。'],

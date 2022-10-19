@@ -176,7 +176,7 @@ var cnItems = {
     "You have no prestige points!": "你没有声望点！",
     "Upgrade Naval Academys": "升级海军学院",
     "Upgrade FOBs": "升级 FOBs",
-    "": "",
+    "Upgrade Command Schools": "升级指挥学校",
     "": "",
     "": "",
     "": "",
